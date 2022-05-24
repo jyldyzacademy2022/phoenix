@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <i
+        >Пожалуйста, заполните форму. Обязательные поля помечены
+        <strong>*</strong></i
+      >
+    </p>
+    <form method="POST">
+      <fieldset>
+        <legend>Контактная информация</legend>
+        <p>
+          <label>
+            Имя *
+            <input
+              type="text"
+              name="user-name"
+              placeholder="Иван Иванов"
+              required
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Телефон
+            <input
+              type="text"
+              name="user-phone"
+              placeholder="+996 555 555 555"
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            Email
+            <input type="email" name="user-email" placeholder="test@test.com" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Пароль
+            <input type="password" name="user-pass" />
+          </label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <p>
+          <label>
+            Возраст
+            <input type="text" name="user-age" />
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Пол
+            <select name="gender">
+              <option value="female">Жен</option>
+              <option value="male">Муж</option>
+            </select>
+          </label>
+          <br />
+          <label>
+            Сообщение
+            <textarea name="message" cols="30" rows="10"></textarea>
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Выберите товар</legend>
+        <label>
+          TV
+          <input type="radio" name="choice" value="tv" checked />
+        </label>
+        <label>
+          SmartPhone
+          <input type="radio" name="choice" value="SmartPhone" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Выберите способ оплаты</legend>
+        <label>
+          Наличными
+          <input type="checkbox" name="cash" />
+        </label>
+        <label>
+          Visa
+          <input type="checkbox" name="visa" value="visa" disabled />
+        </label>
+      </fieldset>
+      <input type="submit" value="Отправить!!!" />
+    </form>
+    <hr />
+
+    <form method="GET">
+      <input name="search-query" type="search" />
+
+      <button type="submit">Искать</button>
+    </form>
+  </body>
+</html>
