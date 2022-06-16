@@ -1,0 +1,84 @@
+/* * {
+  background-color: red;
+}
+
+h1 { 
+  color: yellow; 
+  font-size: 100px; 
+}
+
+h2 {
+  font-size: 20px;
+  color: red;
+}
+
+p {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+} */
+
+#title {
+  text-decoration: underline;
+}
+
+h1, 
+h2,
+p {
+  color: yellow;
+}
+
+.header .title {
+  color: blue;
+}
+
+.title {
+  color: green;
+  font-size: 60px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+div p {
+  color: #333;
+}
+
+.footer > p {
+  color: fuchsia;
+}
+p ~ span {
+  color: rgb(29, 177, 44);
+}
+
+
+li {
+  font-size: 45px;
+}
+
+/*
+li + li {
+  font-size: 10px;
+} */
+
+
+
+/* li:hover {
+  color: red;
+  font-size: 60px;
+}
+
+li:active {
+  color: blue;
+} */
+
+
+li::before{
+  content: "1111";
+  color: red;
+}
+
+li::after{
+  content: "222";
+  color: red;
+}

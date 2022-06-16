@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Anton";
+  src: url("../fonts/Anton-Regular.woff2"), url("../fonts/Anton-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap"); */
+html {
+  font-size: 10px;
+}
+
+body {
+  /* font-family: Anton, sans-serif; */
+  color: #cda29e;
+  color: rgb(102, 10, 255);
+  /* color: rgba(102, 10, 255, 1);
+  color: hsl(20, 20%, 90%);
+  color: hsla(20, 20%, 90%, 1); */
+  /* font-size: 50px; */
+  /* font-size: 150%; */
+  /* font-size: 2em; */
+  font-size: 2rem;
+}
+
+header {
+  font-size: 40px;
+  /* font-style: italic; */
+}
+
+header p {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+/* h1 {
+  font-weight: ;
+} */
+
+/* 16px */
+
+p {
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 3rem;
+  text-shadow: -5px -5px 10px rgb(238, 14, 14);
+}
+
+p::first-letter {
+  color: red;
+  font-size: 50px;
+}
+
+p::first-line {
+  text-transform: capitalize;
+}
