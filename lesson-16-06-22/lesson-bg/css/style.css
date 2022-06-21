@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("../images/bg-patter.jpg");
+  background-repeat: repeat-x;
+}
+
+/* .header {
+  min-height: 1000px;
+  border: 1px solid red;
+  color: #fff;
+  /* background-color: #191514; */
+/* background-image: radial-gradient(
+    50% 50% at 50% 50%,
+    #fe0000 0%,
+    rgba(27, 7, 255, 0.381564) 50.31%,
+    rgba(204, 255, 0, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
